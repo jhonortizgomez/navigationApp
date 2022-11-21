@@ -1,8 +1,8 @@
 import React, {useEffect} from 'react';
 import {Text, View} from 'react-native';
-import Icon from 'react-native-vector-icons/Ionicons';
 
-import {styles, colores} from '../theme/appTheme';
+import {styles} from '../theme/appTheme';
+import {TouchableIcon} from '../components/TouchableIcon';
 
 export const Tab1Screen = () => {
   useEffect(() => {
@@ -13,14 +13,14 @@ export const Tab1Screen = () => {
     <View style={styles.globalMargin}>
       <Text style={styles.title}>Iconos</Text>
       <Text>
-        <Icon name="airplane-outline" size={80} color={colores.primary} />
-        <Icon name="airplane-outline" size={80} color={colores.primary} />
-        <Icon name="airplane-outline" size={80} color={colores.primary} />
-        <Icon name="airplane-outline" size={80} color={colores.primary} />
-        <Icon name="airplane-outline" size={80} color={colores.primary} />
-        <Icon name="airplane-outline" size={80} color={colores.primary} />
-        <Icon name="airplane-outline" size={80} color={colores.primary} />
-        <Icon name="airplane-outline" size={80} color={colores.primary} />
+        <TouchableIcon iconName="airplane-outline" />
+        <TouchableIcon iconName="airplane-outline" />
+        <TouchableIcon iconName="airplane-outline" />
+        <TouchableIcon iconName="airplane-outline" />
+        <TouchableIcon iconName="airplane-outline" />
+        <TouchableIcon iconName="airplane-outline" />
+        <TouchableIcon iconName="airplane-outline" />
+        <TouchableIcon iconName="airplane-outline" />
       </Text>
     </View>
   );
