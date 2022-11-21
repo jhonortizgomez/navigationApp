@@ -40,7 +40,7 @@ const MenuContent = ({navigation}: DrawerContentComponentProps) => {
       <View style={styles.menuContainer}>
         <TouchableOpacity
           style={styles.menuItem}
-          onPress={() => navigation.navigate('Tabs')}>
+          onPress={() => navigation.navigate('Menu')}>
           <Icon name="airplane-outline" size={20} />
           <Text style={styles.menuItemText}> Navegacion</Text>
         </TouchableOpacity>
